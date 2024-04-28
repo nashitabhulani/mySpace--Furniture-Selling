@@ -1,0 +1,143 @@
+*{ 
+    margin: 0;
+    padding: 0;
+   font-family:Poppins;
+  }
+  .clearfix{
+      clear: both;
+      float: none;
+  }
+  .wrapper{
+      
+      width: 90%;
+      margin: 0 auto;
+      padding: 1%;
+  }
+  /*css for navbar*/
+  /* .navbar ul li a{
+      color:white;
+      text-decoration:none;
+      font-weight:bold ;
+     
+  }
+  .navbar ul li a:hover{
+      color:#b5e7a0;
+  }
+  .navbar
+  {
+      text-align: left;
+      line-height: 100px;
+      background-color: #588c7e;
+  }
+  .navbar ul li{
+      display: inline;
+      padding:1%;  
+  } */
+  /*css for footer*/
+  .footer ul li a{
+      text-decoration: none;
+      
+  }
+  .footer ul li{
+      list-style-type:  none;;
+  }
+  /*css for main content*/
+  .main-content{
+      margin:1% 0;
+      background-color:beige;
+  }
+  .full{
+      padding:1%;
+      width: 100%;
+  }
+  table tr th{
+       text-align: left;
+      border-bottom: 1px solid black;
+  }
+  table tr td{
+      padding:1%;
+  }
+  .add{
+      padding:1%;
+      background-color: #1b263b;
+      font-weight: bold;
+      color: white;
+      text-decoration: none;
+  }
+  .add:hover{
+      background-color: #778da9;
+  }
+  .btn{
+      padding:1%;
+      background-color: #1b263b;
+      font-weight:normal;
+      color: black;
+      display: inline-block;
+      align-items: center;
+      text-decoration: none;
+  }
+  .btn:hover{
+      background-color: #778da9;
+  }
+  /*css for add admin page*/
+  .table2{
+      width:30%;
+  }
+  
+  .form input[type="text"]{
+      display:block;
+    padding:5px 8px;
+    margin:8px 10px;
+      
+  }
+  
+  .form input[type="password"]{
+      display:block;
+    padding:5px 8px;
+    margin:8px 10px;
+      
+  }
+  .button1{
+      padding:2%;
+      font-weight: bold;
+      background-color:#1b263b;
+      text-decoration: none;
+      color:black;
+      border:#5CA4A9;
+  }
+  .button1:hover{
+      background-color: #1b263b;
+  }
+  .button2{
+      padding:1%;
+      background-color: #9BC1BC;
+   width: auto;
+   font-weight: bolder;
+  }
+  .button2:hover{
+      background-color: #1b263b;
+  }
+  .login-page{
+      border:1px solid black;
+      background-image: url(../project_root/assets/images/login\ background.jpg);
+      background-size: cover; /* Cover the entire area of the login-page */
+      background-position: center; /* Center the background image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      width:50%;
+      margin:10% auto;
+      padding:2%;
+  }
+  .login-page h1{
+      text-align: center;
+  }
+  .text{
+     
+  text-align: center;
+  }
+  
+   
+    input[type='text']{
+      height: 40px;
+    }
+  
+  
